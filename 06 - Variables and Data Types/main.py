@@ -1,3 +1,4 @@
+# Variables are containers for storing data
 a = complex(8, 2)
 b = True
 c = "Harry"
@@ -19,3 +20,5 @@ print(tuple1)
 
 dict1 = {"name":"Sakshi", "age":20, "canVote":True}
 print(dict1)
+
+

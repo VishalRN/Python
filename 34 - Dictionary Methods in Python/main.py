@@ -4,6 +4,8 @@ ep2 = {222: 67, 566: 90}
 # ep1.update(ep2)
 # ep1.clear()
 # ep1.pop(122)
+empt = {}
+print(type(empt))
 ep1.popitem()
 del ep1[122]
 print(ep1) 

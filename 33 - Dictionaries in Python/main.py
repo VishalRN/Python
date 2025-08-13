@@ -1,5 +1,9 @@
+# Dictionaries are ordered collections of data items
+
 info = {'name':'Karan', 'age':19, 'eligible':True}
 # print(info) 
+# print(info['name'])
+# print(info.get('name'))
 # print(info.keys())
 # print(info.values())
 

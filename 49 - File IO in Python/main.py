@@ -6,6 +6,7 @@
 # print(text)
 # f.close()
 
+
 # WRITING A FILE
 
 f = open('myfile.txt', 'a')

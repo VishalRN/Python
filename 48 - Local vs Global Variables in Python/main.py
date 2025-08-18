@@ -1,8 +1,8 @@
 x = 10  # global variable
-
+print(x)  # prints 10
 
 def my_function():
-  global x
+  global x # declare x as global to modify it
   x = 5  # this will change the value of the global variable x
   y = 5  # local variable
 

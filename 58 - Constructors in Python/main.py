@@ -1,3 +1,4 @@
+# Constructor in Python are used to initialize the attributes of a class.
 class Person:
 
   def __init__(self, name, occ):
@@ -5,7 +6,7 @@ class Person:
     self.name = name
     self.occ = occ
 
-  def info(self):
+  def info(self): # self is required while defining classes
     print(f"{self.name} is a {self.occ}")
 
 

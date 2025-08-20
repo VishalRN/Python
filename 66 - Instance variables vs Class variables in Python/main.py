@@ -1,5 +1,5 @@
 class Employee:
-  companyName = "Apple"
+  companyName = "Apple" # it is a class variable
   noOfEmployees = 0
   def __init__(self, name):
     self.name = name
@@ -10,7 +10,7 @@ class Employee:
 
 # Employee.showDetails(emp1)
 emp1 = Employee("Harry")
-emp1.raise_amount = 0.3
+emp1.raise_amount = 0.3 # instance variable
 emp1.companyName = "Apple India" 
 emp1.showDetails()
 Employee.companyName = "Google"

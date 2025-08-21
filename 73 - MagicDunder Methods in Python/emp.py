@@ -15,5 +15,6 @@ class Employee:
   def __repr__(self):
     return f"Employee('{self.name}')"
 
-  def __call__(self):
+  def __call__(self): # call method is used to call the object like a function
     print("Hey I am good")
+

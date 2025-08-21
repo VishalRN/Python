@@ -1,8 +1,8 @@
 from emp import Employee
 
-e = Employee("Harry")
+e = Employee("Vishal")
 print(str(e))
 print(repr(e))
 # print(e.name)
-# print(len(e))
+print(len(e))
 e()

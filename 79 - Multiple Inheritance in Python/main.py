@@ -19,5 +19,5 @@ class DancerEmployee(Employee, Dancer):
 o  = DancerEmployee("Kathak", "Shivani")
 print(o.name)
 print(o.dance)
-o.show() 
+o.show() # The show method from Employee will be called
 print(DancerEmployee.mro())

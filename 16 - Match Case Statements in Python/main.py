@@ -1,3 +1,4 @@
+# New addition into python from python 3.10
 x = int(input("Enter the value of x: "))
 # x is the variable to match
 match x:
@@ -8,7 +9,7 @@ match x:
     case 4:
         print("case is 4")
 
-    case _ if x!=90:
+    case _ if x!=90: # doubt try ==
         print(x, "is not 90")
     case _ if x!=80:
         print(x, "is not 80")

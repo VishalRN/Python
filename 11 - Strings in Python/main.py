@@ -1,11 +1,13 @@
-name = "Harry"
+name = "Vishal"
 friend = "Rohan"
 anotherFriend = 'Lovish'
+# apple = 'He said, "I want to eat an apple' # This will also work
+# apple = "He said \"I want to eat an apple" # This will also work
 apple = '''He said, 
 Hi Harry
 hey I am good
-"I want to eat an apple'''
- 
+"I want to eat an apple''' # Multi-line string
+
 print("Hello, " + name)
 print(apple) 
 print(name[0])

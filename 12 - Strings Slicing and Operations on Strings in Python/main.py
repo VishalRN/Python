@@ -10,7 +10,7 @@ print(fruit[-1:len(fruit) - 3])
 print(fruit[-3:-1])
 
 # Quick Quiz:
-nm = "Harry"
+nm = "Vishal"
 harry = len(nm)
 print(harry) # 1:3
-print(nm[-4:-2])
+print(nm[-4:-2]) # ar

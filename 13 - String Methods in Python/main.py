@@ -11,9 +11,9 @@ blogHeading = "introduction tO jS"
 print(blogHeading.capitalize()) # Capitalizes the first letter and makes the rest of the letters lowercase
 
 str1 = "Welcome to the Console!!!"
-print(len(str1))
+print(len(str1)) # 25
 print(str1.center(50))
-print(len(str1.center(50)))
+print(len(str1.center(50))) # 50
 print(a.count("Harry"))
 
 str1 = "Welcome to the Console !!!"
@@ -23,6 +23,7 @@ str1 = "Welcome to the Console !!!"
 print(str1.endswith("to", 4, 10)) # checks if the substring "to" is present between indices 4 and 10
 
 str1 = "He's name is Dan. He is an honest man."
+# The major difference being that index() raises an exception if the value is absent whereas find() does not.
 print(str1.find("ishh")) # returns -1
 # print(str1.index("ishh")) # raises ValueError
 
@@ -36,17 +37,17 @@ print(str1.islower())
 
 str1 = "We wish you a Merry Christmas\n"
 print(str1)
-print(str1.isprintable()) # checks if all characters are printable
+print(str1.isprintable()) # checks if all characters are printable (False)
 str1 = "         "       #using Spacebar
 print(str1.isspace())
 str2 = "  "       #using Tab
 print(str2.isspace())
 
 str1 = "World Health Organization" 
-print(str1.istitle()) 
+print(str1.istitle()) # each word starts with a capital letter (True)
 
 str2 = "To kill a Mocking bird"
-print(str2.istitle())
+print(str2.istitle()) # each word does not starts with a capital letter (False)
 
 str1 = "Python is a Interpreted Language" 
 print(str1.startswith("Python"))

@@ -1,6 +1,8 @@
 tup = (1, 2, 76, 342, 32, "green", True)
+tup1 = (90)
+print(type(tup1), tup1) # type is int
+print(type(tup), tup) # type is tuple
 # tup[0] = 90
-print(type(tup), tup)
 print(len(tup))
 print(tup[0])
 print(tup[-1])

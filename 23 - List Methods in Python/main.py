@@ -1,8 +1,8 @@
 l = [11, 45, 1, 2, 4, 6, 1, 1]
 print(l)
 # l.append(7)
-# l.sort(reverse=True)
-# l.reverse()
+# l.sort(reverse=True) # Sort the list in descending order
+# l.reverse() # Reverse the list
 # print(l.index(1))
 # print(l.count(1))
 # m = l.copy()

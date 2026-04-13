@@ -1,3 +1,7 @@
+# Lists are ordered collections of data items.
+# They store multiple items in a single variable.
+# Lists are changeable, meaning we can alter them after creation.
+
 marks = [3, 5, 6, "Vishal", True, 6, 7 , 2, 32, 345, 23]
 # print(marks)
 # print(type(marks))
@@ -19,7 +23,7 @@ marks = [3, 5, 6, "Vishal", True, 6, 7 , 2, 32, 345, 23]
 #   print("No")
 
 # Same thing applies for strings as well!
-# if "Vi" in "Vishal":
+# if "sh" in "Vishal":
 #   print("Yes")
 
 # print(marks[0:7])

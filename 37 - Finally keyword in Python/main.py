@@ -10,7 +10,7 @@ def func1():
 
   finally:
     print("I am always executed")
-  # print("I am always executed")
+  # print("I am always executed") # This line won't work in a function 
 
 
 x = func1()

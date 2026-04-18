@@ -11,4 +11,5 @@ avg = lambda x, y, z: (x + y + z) / 3
 print(double(5))
 print(cube(5))
 print(avg(3, 5, 10))
+print(appl(double, 5)) # passing  a function to a function
 print(appl(lambda x: x * x , 2))

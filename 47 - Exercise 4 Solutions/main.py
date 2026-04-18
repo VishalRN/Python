@@ -26,7 +26,7 @@ if(coding):
       stnew = r1+ word[1:] + word[0] + r2
       nwords.append(stnew)
     else:
-      nwords.append(word[::-1])
+      nwords.append(word[::-1]) # it will reverse the string
   print(" ".join(nwords))
 
 else:

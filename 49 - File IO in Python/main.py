@@ -1,7 +1,7 @@
 # READING A FILE
 
-# f = open('myfile.txt', 'r')
-# # print(f)
+# f = open('myfile.txt', 'r') # read mode will be default
+# print(f)
 # text = f.read()
 # print(text)
 # f.close()

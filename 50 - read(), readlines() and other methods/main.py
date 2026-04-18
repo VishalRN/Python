@@ -18,3 +18,11 @@ f = open('myfile2.txt', 'w')
 lines = ['line 1\n', 'line 2\n', 'line 3\n']
 f.writelines(lines)
 f.close()
+
+# f = open('myfile2.txt', 'r')
+# while True:
+#   line = f.readline() # Read a line from the file
+#   if not line:
+#     break
+#   print(line) # This will print the line as it is read from the file
+#   print(line.strip()) # This will print the line without the extra new line character at the end.

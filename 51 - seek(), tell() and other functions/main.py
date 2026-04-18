@@ -2,8 +2,8 @@
 with open('file.txt', 'r') as f:
   print(type(f))  # <class '_io.TextIOWrapper'>
   # Move to the 10th byte in the file
-  f.seek(10)
-
+  data = f.seek(10)
+  
   # Read the next 5 bytes
   data = f.read(5)
   print(data)

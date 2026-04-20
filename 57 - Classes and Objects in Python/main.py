@@ -1,5 +1,6 @@
 # class is a blueprint for creating objects
 class Person:
+  # the below code is default constructor
   name = "Harry"
   occupation = "Software Developer"
   networth = 10

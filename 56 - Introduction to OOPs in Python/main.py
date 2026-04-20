@@ -1,3 +1,7 @@
+# Two types of Python programming: 
+# 1. Procedure-oriented programming
+# 2. Object-oriented programming
+
 def hello():
   print("hello")
 
@@ -17,7 +21,9 @@ profit3 = 2000
 ad3 = 1000
  
 # RailwayForm   ---> Class [blueprint]
-# harry --> harry ki info wala form --> Object [entity]
-# tom --> tom ki info wala form --> Object [entity]
-# shubham -- shubham ki info wala form --> Object [entity]
-# shubham.changeName("Shubhi")
+# vishal --> contains vishal info --> Object [entity]
+# tom --> contains tom info --> Object [entity]
+# shubham -- contains shubham info --> Object [entity]
+
+# shubham.changeName("Shubhi") # example for encapsulation
+# Creating Railway VIP Form using the RailwayForm class is called as inheritance

@@ -1,9 +1,9 @@
 class Student:
     def __init__(self):
-        self._name = "Harry"
+        self._name = "Vishal"
 
     def _funName(self):      # protected method
-        return "CodeWithHarry"
+        return "CodeWithVishal"
 
 class Subject(Student):       #inherited class
     pass
@@ -14,10 +14,12 @@ print(dir(obj))
 
 # calling by object of Student class
 print(obj._name)      
-print(obj._funName())     
+print(obj._funName())
+print(obj.__dir__()) # shows all attributes including protected ones     
 # calling by object of Subject class
 print(obj1._name)    
 print(obj1._funName())
+print(obj1.__dir__()) # shows all attributes including protected ones
 
 
 # class Employee:

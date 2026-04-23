@@ -7,7 +7,7 @@ class Employee:
   def fromStr(cls, string):
     return cls(string.split("-")[0], int(string.split("-")[1]))
     
-e1 = Employee("Harry", 12000)
+e1 = Employee("Vishal", 12000)
 print(e1.name)
 print(e1.salary)
 
@@ -23,8 +23,13 @@ class Person:
 
     @classmethod
     def from_string(cls, string):
+        # name = string.split(",")[0]
+        # age = string.split(",")[1]
         name, age = string.split(',')
+        # return cls(string.split(",")[0], int(string.split(",")[1]))
         return cls(name, int(age))
 
 person = Person.from_string("John Doe, 30")
 print(person.name, person.age)
+print(type(person.name))
+print(type(person.age))

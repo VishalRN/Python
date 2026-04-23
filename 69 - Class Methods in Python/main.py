@@ -4,7 +4,7 @@ class Employee:
     print(f"The name is {self.name} and company is {self.company}")
 
   @classmethod
-  def changeCompany(cls, newCompany):
+  def changeCompany(cls, newCompany): # the first argument cls is the class itself and allows us to access class variables(but it works only in class methods)
     cls.company = newCompany
 
 

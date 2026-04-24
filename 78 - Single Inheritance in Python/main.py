@@ -1,3 +1,4 @@
+# a single inheritance is a type of inheritance where a class (child class) inherits from another class (parent class)
 class Animal:
     def __init__(self, name, species):
         self.name = name

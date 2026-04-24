@@ -25,9 +25,9 @@ class GoldenRetriever(Dog):
         Dog.show_details(self)
         print(f"Color: {self.color}")
 
-o = Animal("tommy", "Black")
-# o = Dog("tommy", "Black")
+# o = Animal("tommy", "Black")
+o = Dog("tommy", "Black")
 # o = GoldenRetriever("tommy", "Black")
 o.show_details()
-print(GoldenRetriever.mro())
+print(Dog.mro())
 

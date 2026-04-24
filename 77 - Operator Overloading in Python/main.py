@@ -10,6 +10,7 @@ class Vector:
   def __add__(self, x):
     # return f"{self.i + x.i}i + {self.j + x.j}j + {self.k + x.k}k"
     return Vector(self.i + x.i,  self.j + x.j, self.k + x.k) 
+  
 v1 = Vector(3, 5, 6)
 print(v1)
 

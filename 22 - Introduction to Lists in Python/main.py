@@ -28,7 +28,7 @@ marks = [3, 5, 6, "Vishal", True, 6, 7 , 2, 32, 345, 23]
 
 # print(marks[0:7])
 # print(marks[1:9])
-# print(marks[1:9:3])
+print(marks[1:9:3])
 
 lst = [i*i for i in range(10)]
 print(lst)

@@ -1,7 +1,9 @@
-from functools import lru_cache
+# from functools import lru_cache
+import functools
 import time
 
-@lru_cache(maxsize=None)
+# @lru_cache(maxsize=None)
+@functools.lru_cache(maxsize=None)
 def fx(n):
   time.sleep(5)
   return n*5

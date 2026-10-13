@@ -2,15 +2,16 @@
 # In python, we don't need to declare the type of variable, it is inferred from the value assigned to it
 # in python everything is an object
 # a = 123
-a = complex(8, 2) #doubt
+a = complex(8, 2)
 b = True
 c = "Vishal"
 d = None
 e = 3.14
 print(a)
 print(b)
-# a1 = 9
-# print(a + a1)
+a1 = 9
+print(a + a1)
+print(type(6+2j))
 print("The type of a is ", type(a))
 print("The type of b is ", type(b))
 print("The type of c is ", type(c))
